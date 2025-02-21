@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(17, 10, 233);
+    background-color: rgb(227, 197, 227);
+}
+h1,h2,h3{
+    text-decoration: underline overline;
+    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.hot{
+    color: rgb(222, 18, 181);
+    font-style: italic;
+    background-color: yellow;
+}
+.cold{
+ font-weight: bold;
+ color: rgb(90, 90, 227);
+ background-color: rgb(175, 137, 241);
+ text-align: center;
+ 
+}
+.ultimate{
+    color: red;
+    text-align: center;
+}
+hr{
+    background-color: rgb(221, 22, 22);
+    height: 1px;
+}
