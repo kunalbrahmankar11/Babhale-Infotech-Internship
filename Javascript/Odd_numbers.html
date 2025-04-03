@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd_numbers</title>
+</head>
+<body>
+    <h1 id="oddd">odd</h1>
+    <script>
+        let text="";
+        for(let x=1;x<=100;x++){
+
+            if(x%2===1){
+                text = text + x +"<br>";
+            }
+        }
+        document.getElementById("oddd").innerHTML = text;
+    </script>
+</body>
+</html>
