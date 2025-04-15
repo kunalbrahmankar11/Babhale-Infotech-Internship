@@ -13,6 +13,7 @@
 
 document.getElementById("myText").addEventListener("click", function () {
   const randomIndex = Math.floor(Math.random() * colors.length);
+  console.log(randomIndex);
   const randomColor = colors[randomIndex];
   myText.style.color = randomColor;
   console.log( myText.style.color)
